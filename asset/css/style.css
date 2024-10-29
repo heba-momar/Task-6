@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root{
+    --main-color:#f3f2ec;
+    --main-color1:#EDEBE4;
+    --color-primary: #e1ac56;
+}
+.heba-bg{
+    background-color:var(--main-color);
+}
+.hero{ 
+    padding-top: 20px;
+   padding-bottom: 20px;
+    background-color:var(--main-color) ;
+    margin-top: 15px;
+  
+}
+.heba-btn{
+    border:1px solid #C6AB94;
+    width: 200px;
+
+}
+.heba-size{
+    font-family: "Playfair Display" , serif; 
+    font-size: 60px;
+    padding: 25px;
+}
+.heba-img{
+   height: calc(100vh-60px);
+}
+
+.heba-color{
+        background-color:var(--main-color1);
+    }  
+    .heba-border-bottom{
+        border-bottom: 1px solid rgba(10, 10, 10, 0.096); ;
+        width: 100%;
+        height: 1px;
+    }
+    .card {
+        border: none !important;
+    }
+    
+    .none ul li {
+        list-style: none;
+    }
+  
+    #root8 img{
+        border:#ffffff 20px solid;
+        width: 60%;
+    }
+    .line {
+        width: 40px;
+        height: 5px;
+        background-color: #fd7200;
+        border-radius: 10%;
+    }
+ 
+    .heba-name {
+        color: var(--color-primary);
+    }
+    @media (max-width: 991px) {
+    
+        .heba-size {
+            width: 100% !important;
+            font-size: 40px;
+            padding: 25px;
+        }
+     
+    }
+
